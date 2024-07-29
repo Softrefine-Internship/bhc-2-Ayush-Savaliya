@@ -1,1 +1,58 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    width: 1200px;
+    height: 100vh;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:400px;
+    width: 400px; 
+}
+.div_text{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(4, 13, 40, 0.943);
+    padding: 70px;
+    padding-right: 50px;
+    line-height: 1.4;
+    color: rgba(213, 227, 241, 0.726);
+}
+h2{
+    font-size: 24px;
+    color: #fff;
+}
+.award{
+    margin-bottom: 5px;
+    color: #9274ea;
+    font-size: 12px;
+}
+blockquote{
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+h2,
+blockquote{
+    padding-bottom: 10px;
+}
+.btn{
+    font-size: 12px;
+    margin-top: 10px;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    background-color: #3a3a41;
+    text-decoration: none;
+    border-radius: 5px;
+}
