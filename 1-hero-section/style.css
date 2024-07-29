@@ -1,1 +1,84 @@
-/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vb;
+    background: linear-gradient(#fff,rgba(184, 145, 202,1));
+}
+header{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 100px 1fr 150px;
+    justify-items: center;
+    align-items: center;
+}
+nav a{
+    color: black;
+}
+a:link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.login{
+    color: black;
+}
+section{
+    width: 550px;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+.announc {
+    padding-left: 20px;
+    width: 75%;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.read_more{
+    font-size: 12px;
+    color: rgb(94, 94, 202);
+}
+h1{
+    font-size: 52px;
+    text-align: center;
+}
+.discription{
+    font-size: 16px;
+    font-family: system-ui;
+    text-align: center;
+}
+.getstarted_learn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px solid none;
+    border-radius: 8px ;
+    background-color: rgb(86, 86, 195);
+    color: #fff;
+}
+.learn_more{
+    margin-left: 30px;
+    color: black;
+}
