@@ -1,1 +1,99 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    height: 100vh;
+    margin: auto auto;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+header p{
+    text-align: center;
+    width: 48%;
+    color: #868e96;
+}
+header h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.price{
+    color: rgb(53, 53, 236);
+    font-weight: 600;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    stroke: #fff;
+    font-weight: 900;
+    background-color: blue;
+    border-radius: 50%;
+}
+section{
+    margin-top: 60px;
+    display: flex ;
+    justify-content: space-around;
+}
+figure{
+    padding: 20px;
+    width: 31%;
+    box-shadow: 0 1px 3px rgb(0, 0, 0,0.1);
+}
+.title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dlr{
+    font-weight: bold;
+    font-size: 40px;
+}
+aside{
+    font-weight:900;
+    margin:10px 0;
+    display: flex;
+    align-items: baseline;
+}
+aside span{
+    font-weight: 600;
+    color: #868e96;
+}
+.sal{
+    font-size: 15px;
+    font-weight: lighter;
+    color:#868e96;
+}
+.title_1{
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 8px;
+    color: #868e96;
+}
+li span{
+    margin-left: 10px;
+}
+.btn{
+    background-color: rgb(53, 53, 236);
+    color: #fff;
+    padding: 9px;
+    display: block;
+    border-radius: 6px;
+    margin: 30px 10px;
+    text-align: center;
+    text-decoration: none;
+}
