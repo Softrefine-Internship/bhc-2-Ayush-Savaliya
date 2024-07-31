@@ -5,8 +5,12 @@
 }
 body{
     font-family: sans-serif;
+}
+.container{
+    margin: 0 auto;
     height: 100vb;
-    background: linear-gradient(#fff,rgba(184, 145, 202,1));
+        width: 1200px;
+        background: linear-gradient(#fff, rgba(184, 145, 202, 1));
 }
 header{
     height: 80px;
@@ -28,6 +32,7 @@ a:link {
 img{
     height: 50px;
     width: 50px;
+    
 }
 .login{
     color: black;
