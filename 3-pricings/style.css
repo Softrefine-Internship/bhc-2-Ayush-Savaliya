@@ -48,7 +48,10 @@ section{
 figure{
     padding: 20px;
     width: 31%;
-    box-shadow: 0 1px 3px rgb(0, 0, 0,0.1);
+    border-right: 3px solid #f1ecec97;
+}
+figure:last-child{
+    border-right: none;
 }
 .title{
     font-weight: 600;
@@ -96,4 +99,7 @@ li span{
     margin: 30px 10px;
     text-align: center;
     text-decoration: none;
+}
+a.btn:hover {
+    background-color: rgb(56, 56, 182);
 }

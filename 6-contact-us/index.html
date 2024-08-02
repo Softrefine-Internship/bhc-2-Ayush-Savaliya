@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>6-contact-us</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
   <body>
     <header>
@@ -27,13 +32,17 @@
       <label for="Email">Email</label>
       <input type="email" />
       <label for="Phone number">Phone number</label>
-      <input type="tel" placeholder="us" class="tel" />
+      <input id="phone" type="tel" name="phone" class="tel-cls" />
+
       <label for="Message">Message</label>
       <textarea name="text" class="text_area"></textarea>
     </section>
     <footer>
       <div class="flex_ footer_div">
-        <img src="toggle.jpg" alt="toggle_img" />
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
         <p>
           By selecting this, you agree to our<strong> privacy policy</strong>.
         </p>
@@ -41,4 +50,11 @@
       <a href="#" class="btn">Let's talk</a>
     </footer>
   </body>
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
 </html>

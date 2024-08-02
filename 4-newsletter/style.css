@@ -21,14 +21,14 @@ body {
     background: linear-gradient(#0b0513, #3f1c42);
 }
 h1{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing:-0.5px;
     margin-bottom: 5px;
 }
 h3{
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: 5px 28%;
     line-height: 1.7;
@@ -53,6 +53,7 @@ h3{
 .e-mail{
     background-color:transparent;
     border: 1px solid #f8f9fa1b;
+    color: #fff;
 }
 .btn{
     width: 10%;

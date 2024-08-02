@@ -32,10 +32,15 @@ h3{
     padding-right: 5px;
     border-radius: 50px;
     font-weight: 550;
+    justify-content: center;
+    align-items: center;
 }
 .text{
-    padding-right: 100px;
+    font-family: Montserrat;    
+    font-size: 14px;
+    padding-right: 90px;
     line-height: 1.5;
+    font-weight: 550;
 }
 .flex_{
     display: flex;

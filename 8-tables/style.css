@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: Mulish;
     width: 1200px;
     margin: 20px auto;
 }
@@ -55,4 +55,12 @@ tr a{
     text-decoration: none;
     border-radius: 6px;
     align-self: center;
+}
+a:hover,
+a:active {
+    cursor: pointer;
+}
+a.btn:hover {
+    background-color: rgb(28, 28, 125);
+    border-radius: 8px;
 }

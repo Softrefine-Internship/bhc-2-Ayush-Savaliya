@@ -97,7 +97,8 @@ strong{
     background-color: #4dabf7;
     width: 200px;
     height: 30px;
-    border-radius: 5px;flex-direction: row;
+    border-radius: 5px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2px;
@@ -110,11 +111,11 @@ strong{
 .twitter{
     height: 30px;
     width: 30px;
-    padding-top: 3px;
+    padding-top: -5px;
     fill: white;
 }
 .logo span{
-    padding-top: 5px;
+    padding-top: 0;
     color: #dee2e6;
 }
 footer{
@@ -130,4 +131,17 @@ strong {
 a{
     text-decoration: none;
     cursor: pointer;
+}
+a:hover,
+a:active,
+.logo{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+a.btn:hover {
+    background-color: rgb(28, 28, 125);
+    padding: 10px;
 }
